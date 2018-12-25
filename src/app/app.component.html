@@ -6,10 +6,14 @@
 </div>
 <ul>
   <li>
-    <h2><a target="_blank" rel="noopener" href="common/login">login</a></h2>
+    <h2><a routerLink="login" matTooltip="ログオフ" matTooltipPosition="after">
+      <mat-icon class="material-icons md-36">view_quilt</mat-icon>
+    </a></h2>
   </li>
   <li>
-    <h2><a target="_blank" rel="noopener" href="common/tablesh/tablesh.component.html">table test1</a></h2>
+    <h2><a routerLink="tablesh" matTooltip="テーブルテスト" matTooltipPosition="after">
+      {{'zhufei' | translate}}
+    </a></h2>
   </li>
   <li>
     <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
